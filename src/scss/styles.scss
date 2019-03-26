@@ -6,8 +6,17 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+.nav-link {
+  text-decoration: none;
+  a:hover {
+    text-decoration: underline
+  }
+}
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
 
+@import 'nav';
+@import 'jumbotron';
