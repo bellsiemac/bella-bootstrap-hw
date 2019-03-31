@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff");
+}
+
+html{
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family:serif;
+  height: 100%;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.yarr {
+  font-family: 'Germania One', cursive;
+}
+
+.inner-div {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: inherit;
+}
+
+.pirate {
+  width: 200px;
+  float: right;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.author-column {
+  border-right: 1px solid #b7e6ed
+}
+
+.carousel {
+  margin-right: 2px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: black;
+  text-align: center;
+}
