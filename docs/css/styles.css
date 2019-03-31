@@ -6332,11 +6332,10 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .jumbotron {
-  background-image: url(../media/pirate-ship.jpg);
-  background-repeat: no-repeat;
-  min-height: 300px;
-  height: 475px;
-  background-size: cover; }
+  background: url(../media/pirate-ship.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  padding-top: 12rem; }
 
 @font-face {
   font-family: "myFont";
@@ -6354,16 +6353,6 @@ body {
 
 .yarr {
   font-family: 'Germania One', cursive; }
-
-.inner-div {
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: inherit; }
 
 .author-column {
   border-right: 1px solid #b7e6ed; }
