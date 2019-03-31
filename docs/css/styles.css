@@ -1,8 +1,3 @@
-.nav-link {
-  text-decoration: none; }
-  .nav-link a:hover {
-    text-decoration: underline; }
-
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6317,7 +6312,46 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+html {
+  height: 100%;
+  margin: 0; }
+
+body {
+  font-family: serif;
+  height: 100%;
+  margin: 0; }
+
+.inner-div {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: inherit; }
+
 .nav-link {
   text-decoration: none; }
-  .nav-link a:hover {
-    text-decoration: underline; }
+
+.nav-link:hover {
+  text-decoration: underline; }
+
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:active {
+  text-decoration: bold; }
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.jumbotron {
+  background-image: url("/media/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 475px;
+  background-size: cover; }
