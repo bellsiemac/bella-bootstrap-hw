@@ -6332,7 +6332,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .jumbotron {
-  background-image: url("/media/pirate-ship.jpg");
+  background-image: src= "/media/pirate-ship.jpg";
   background-repeat: no-repeat;
   width: 100%;
   height: 475px;
